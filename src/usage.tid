@@ -1,0 +1,31 @@
+title: $:/plugins/nikorion/chart/usage
+type: text/vnd.tiddlywiki
+
+! Introduction
+
+! Examples
+
+! Content and Attributes
+
+|thead-dark w-100|k
+|Attribute |Description |h
+|type |(default: `bar`)|
+|width |(default: `600px`)|
+|height |(default: `400px`)|
+|label |(default: `Données`)|
+|backgroundColor |(default: `rgba(75, 192, 192, 0.5)`)|
+|borderColor |(default: `rgba(75, 192, 192, 1)`)|
+|borderWith |(default: `2`)|
+|dataTiddler ||
+
+!! `type` attribute
+
+*`line`: 
+*`radar`: 
+*`bar`: 
+*`bubble`: 
+*`doughnut`: 
+*`pie`: 
+*`polarArea`: 
+*`radar`: 
+*`scatter`: 

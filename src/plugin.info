@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/nikorion/chart",
+    "description": "Plugin Chart.js pour TiddlyWiki",
+    "author": "Nikorion",
+    "version": "0.1.0",
+    "core-version": ">=5.3.8",
+    "source": "https://github.com/nikorion/tw5-chart",
+    "plugin-type": "plugin",
+    "list": "readme licence usage config tree"
+}
