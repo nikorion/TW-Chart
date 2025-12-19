@@ -1,0 +1,9 @@
+title: $:/plugins/nikorion/chart/readme
+tags: $:/tags/Macro
+type: text/vnd.tiddlywiki
+
+! tw5-chart
+
+A TiddlyWiki plugin for the [[Chart library|]].
+
+Current library version: v4.2.1
