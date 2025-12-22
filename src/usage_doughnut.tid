@@ -1,0 +1,7 @@
+caption: doughnut
+title: $:/plugins/nikorion/chart/usage/doughnut
+type: text/vnd.tiddlywiki
+
+;Donut `doughnut`
+<<wikitext-example '<$chart type="pie"/>
+'>>

@@ -3,6 +3,33 @@ type: text/vnd.tiddlywiki
 
 ! Introduction
 
+<<wikitext-example '<$chart 
+	type="bar" 
+	labels="Jan,Fév,Mar" 
+	data="12,19,3" 
+	label="Test"
+	width="250px"
+	height="150px"
+/>
+'>>
+
+On peut aussi charger les données depuis un tiddler JSON
+
+```
+title: DataVentes
+type: application/json
+
+{
+  "labels": ["T1", "T2", "T3", "T4"],
+  "values/data": [100, 150, 120, 180]
+}
+```
+```
+<$chart type="bar" dataTiddler="DataVentes" label="Résultats trimestriels"/>
+```
+
+
+
 ! Examples
 
 ! Content and Attributes
@@ -29,3 +56,5 @@ type: text/vnd.tiddlywiki
 *`polarArea`: 
 *`radar`: 
 *`scatter`: 
+
+<<tabs "[all[shadows]prefix[$:/plugins/nikorion/chart/usage/]] X" X>>

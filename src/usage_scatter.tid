@@ -1,0 +1,7 @@
+caption: scatter
+title: $:/plugins/nikorion/chart/usage/scatter
+type: text/vnd.tiddlywiki
+
+;Nuage de points `scatter` 
+<<wikitext-example '<$chart type="pie"/>
+'>>

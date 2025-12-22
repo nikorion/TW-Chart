@@ -1,0 +1,7 @@
+caption: polarArea
+title: $:/plugins/nikorion/chart/usage/polarArea
+type: text/vnd.tiddlywiki
+
+;Aire polaire `polarArea`
+<<wikitext-example '<$chart type="pie"/>
+'>>

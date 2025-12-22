@@ -1,0 +1,7 @@
+caption: bubble
+title: $:/plugins/nikorion/chart/usage/bubble
+type: text/vnd.tiddlywiki
+
+;Bulles `bubble` 
+<<wikitext-example '<$chart type="pie"/>
+'>>

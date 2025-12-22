@@ -1,0 +1,7 @@
+caption: line
+title: $:/plugins/nikorion/chart/usage/line
+type: text/vnd.tiddlywiki
+
+;Ligne `line`
+<<wikitext-example '<$chart type="line" labels="Lun,Mar,Mer,Jeu,Ven" data="12,19,3,5,2" label="Visites"/>
+'>>
