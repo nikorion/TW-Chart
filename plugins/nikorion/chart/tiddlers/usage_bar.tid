@@ -2,6 +2,6 @@ caption: bar
 title: $:/plugins/nikorion/chart/usage/bar
 type: text/vnd.tiddlywiki
 
-;Barres verticales `bar`
-<<wikitext-example '<$chart type="bar" labels="Jan,Fév,Mar" data="12,19,3" label="Test"/>
+;Vertical bar chart `bar`
+<<wikitext-example '<$chart type="bar" labels="Jan,Feb,Mar" data="12,19,3" label="Test"/>
 '>>

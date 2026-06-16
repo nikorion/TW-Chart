@@ -48,7 +48,7 @@ ChartWidget.prototype.execute = function() {
     this.chartType =            this.getAttribute("type", "bar");
     this.chartWidth =           this.getAttribute("width", "600px");
     this.chartHeight =          this.getAttribute("height", "400px");
-    this.chartLabel =           this.getAttribute("label", "Données");
+    this.chartLabel =           this.getAttribute("label", "Data");
     this.backgroundColor =      this.getAttribute("backgroundColor", "rgba(75, 192, 192, 0.5)");
     this.borderColor =          this.getAttribute("borderColor", "rgba(75, 192, 192, 1)");
     this.borderWidth = parseInt(this.getAttribute("borderWidth", "2"));
@@ -97,7 +97,7 @@ ChartWidget.prototype.createChart = function(canvas) {
     }
     
     if (!Chart) {
-        canvas.parentNode.innerHTML = "<p style='color:red;'>Chart.js n'est pas chargé!</p>";
+        canvas.parentNode.innerHTML = "<p style='color:red;'>Chart.js is not loaded!</p>";
         return;
     }
     
@@ -144,7 +144,7 @@ ChartWidget.prototype.createChart = function(canvas) {
     try {
         this.chart = new Chart(canvas, config);
     } catch(e) {
-        canvas.parentNode.innerHTML = "<p style='color:red;'>Erreur: " + e.message + "</p>";
+        canvas.parentNode.innerHTML = "<p style='color:red;'>Error: " + e.message + "</p>";
     }
 };
 

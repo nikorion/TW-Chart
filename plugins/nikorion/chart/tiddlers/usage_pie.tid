@@ -2,6 +2,6 @@ caption: pie
 title: $:/plugins/nikorion/chart/usage/pie
 type: text/vnd.tiddlywiki
 
-;Camembert `pie`
-<<wikitext-example '<$chart type="pie" labels="Chrome,Firefox,Safari,Edge" data="45,25,20,10" label="Navigateurs"/>
+;Pie chart `pie`
+<<wikitext-example '<$chart type="pie" labels="Chrome,Firefox,Safari,Edge" data="45,25,20,10" label="Browsers"/>
 '>>

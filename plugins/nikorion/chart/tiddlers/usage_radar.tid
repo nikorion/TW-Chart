@@ -2,6 +2,6 @@ caption: radar
 title: $:/plugins/nikorion/chart/usage/radar
 type: text/vnd.tiddlywiki
 
-;Radar `radar`
+;Radar chart `radar`
 <<wikitext-example '<$chart type="pie"/>
 '>>
