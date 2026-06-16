@@ -1,0 +1,5 @@
+{
+  "watch": ["plugins/nikorion/chart"],
+  "ext": "*",
+  "exec": "tiddlywiki devwiki --listen port=8486"
+}
