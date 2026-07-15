@@ -1,0 +1,7 @@
+caption: doughnut
+title: $:/plugins/nikorion/chart/usage/doughnut
+type: text/vnd.tiddlywiki
+
+;Doughnut chart `doughnut`
+<<wikitext-example '<$chart doughnut labels="Chrome,Firefox,Safari,Edge" data="45,25,20,10" label="Browsers"/>
+'>>

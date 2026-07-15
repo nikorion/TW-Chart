@@ -1,7 +1,0 @@
-caption: radar
-title: $:/plugins/nikorion/chart/usage/radar
-type: text/vnd.tiddlywiki
-
-;Radar chart `radar`
-<<wikitext-example '<$chart type="pie"/>
-'>>

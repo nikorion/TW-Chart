@@ -1,0 +1,17 @@
+code-body: yes
+created: 20260616211624606
+modified: 20260616215312016
+tags: $:/tags/Global
+title: wikitext-macros
+type: text/vnd.tiddlywiki
+
+\procedure wikitext-example(src)
+<div class="doc-example">
+	<$macrocall $name="copy-to-clipboard-above-right" src=<<src>>/>
+	<$codeblock code=<<src>>/>
+	<p>
+		That renders as:
+	</p>
+	<$transclude $variable="src" $mode="block"/>
+</div>
+\end

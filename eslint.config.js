@@ -4,14 +4,15 @@ import globals from "globals";
 export default [
   {
     ignores: [
-      "plugins/nikorion/chart/modules/chart.min.js",
+      "src/chart/modules/chart.min.js",
       "node_modules/**",
       "dist/**",
       "docs/**",
+      "wiki/**",
     ],
   },
   {
-    files: ["plugins/nikorion/chart/modules/*.js"],
+    files: ["src/chart/modules/*.js"],
     languageOptions: {
       ecmaVersion: 2021,
       sourceType: "script",

@@ -1,0 +1,7 @@
+caption: radar
+title: $:/plugins/nikorion/chart/usage/radar
+type: text/vnd.tiddlywiki
+
+;Radar chart `radar`
+<<wikitext-example '<$chart radar labels="Speed,Strength,Stamina,Agility,Intelligence" data="80,65,90,40,75" label="Hero Stats"/>
+'>>

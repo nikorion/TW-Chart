@@ -1,0 +1,7 @@
+caption: bubble
+title: $:/plugins/nikorion/chart/usage/bubble
+type: text/vnd.tiddlywiki
+
+;Bubble chart `bubble`
+<<wikitext-example '<$chart bubble data="""[{"x":10,"y":20,"r":15},{"x":30,"y":50,"r":25},{"x":50,"y":30,"r":10},{"x":70,"y":80,"r":20}]""" label="Bubbles"/>
+'>>

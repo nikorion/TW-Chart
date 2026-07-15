@@ -1,7 +1,0 @@
-caption: line
-title: $:/plugins/nikorion/chart/usage/line
-type: text/vnd.tiddlywiki
-
-;Line chart `line`
-<<wikitext-example '<$chart type="line" labels="Mon,Tue,Wed,Thu,Fri" data="12,19,3,5,2" label="Visits"/>
-'>>

@@ -1,7 +1,0 @@
-caption: polarArea
-title: $:/plugins/nikorion/chart/usage/polarArea
-type: text/vnd.tiddlywiki
-
-;Polar area chart `polarArea`
-<<wikitext-example '<$chart type="pie"/>
-'>>

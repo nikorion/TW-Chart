@@ -1,0 +1,7 @@
+caption: polarArea
+title: $:/plugins/nikorion/chart/usage/polarArea
+type: text/vnd.tiddlywiki
+
+;Polar area chart `polarArea`
+<<wikitext-example '<$chart polarArea labels="Red,Blue,Yellow,Green,Purple" data="11,16,7,3,14" label="Values"/>
+'>>

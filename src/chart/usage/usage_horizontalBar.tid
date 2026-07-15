@@ -1,0 +1,7 @@
+caption: horizontal bar
+title: $:/plugins/nikorion/chart/usage/horizontalBar
+type: text/vnd.tiddlywiki
+
+;Horizontal bar chart `bar` + `indexAxis="y"`
+<<wikitext-example '<$chart bar indexAxis="y" labels="Jan,Feb,Mar,Apr,May" data="12,19,3,5,8" label="Sales"/>
+'>>

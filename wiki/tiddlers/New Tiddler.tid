@@ -1,0 +1,15 @@
+created: 20260616215636398
+modified: 20260616220358712
+tags: 
+title: New Tiddler
+type: text/vnd.tiddlywiki
+
+<$chart bar
+	labels="Jan,Feb,Mar"
+	data="12,19,3"
+	label="Test"
+	width="250px"
+	height="150px"
+    backgroundColor="orange"
+    borderColor="black"
+/>

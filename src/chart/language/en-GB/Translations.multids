@@ -1,0 +1,8 @@
+title: $:/plugins/nikorion/chart/language/en-GB/
+
+Configs/Caption: Chart
+Configs/Title: `chart` widget
+Configs/Description: Renders Chart.js charts from inline data or a JSON tiddler.
+Errors/LoadFailed: Chart.js failed to load
+Errors/RenderFailed: Error rendering chart
+Errors/InvalidData: Invalid JSON in data tiddler

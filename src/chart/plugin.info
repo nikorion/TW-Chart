@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/nikorion/chart",
+    "name": "Chart",
+    "description": "Widget integrating Chart.js",
+    "author": "nikorion",
+    "version": "0.1.0",
+    "core-version": ">=5.3.8",
+    "source": "https://github.com/nikorion/tw5-chart",
+    "plugin-type": "plugin",
+    "stability": "STABILITY_1_EXPERIMENTAL",
+    "type": "application/json",
+    "list": "readme licence usage config"
+}
