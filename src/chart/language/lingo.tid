@@ -1,4 +1,4 @@
-title: $:/plugins/nikorion/chart/macros/lingo
+title: $:/plugins/nikorion/chart/language/lingo
 tags: $:/tags/Global
 
 \procedure chart-lingo(title)

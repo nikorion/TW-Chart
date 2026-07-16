@@ -9,5 +9,6 @@
     "plugin-type": "plugin",
     "stability": "STABILITY_1_EXPERIMENTAL",
     "type": "application/json",
-    "list": "readme licence usage config"
+    "list": "readme license usage history",
+    "icon": "$:/plugins/nikorion/chart/icon"
 }

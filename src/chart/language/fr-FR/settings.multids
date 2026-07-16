@@ -1,0 +1,5 @@
+title: $:/plugins/nikorion/chart/language/fr-FR/
+
+Configs/Caption: Graphique
+Configs/Title: Widget `chart`
+Configs/Description: Affiche des graphiques Chart.js depuis des données inline ou un tiddler JSON.

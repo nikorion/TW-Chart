@@ -1,0 +1,24 @@
+title: $:/plugins/nikorion/chart/language/fr-FR/readme
+type: text/vnd.tiddlywiki
+
+! tw5-chart
+
+Un plugin TiddlyWiki pour la [[bibliothèque Chart.js|https://www.chartjs.org/]].
+
+Version actuelle de la bibliothèque : v4.2.1
+
+---
+
+!! Crédits
+
+[[Chart.js|https://www.chartjs.org/]], créé par la communauté Chart.js.
+
+Icône depuis [[SVG Repo|https://www.svgrepo.com/svg/429933/chart-bar-graph-analytics]] — voir les conditions d'utilisation de SVG Repo.
+
+Développé avec l'aide d'Anthropic Claude pour le code, la relecture, le remaniement et la documentation.
+
+---
+
+!! Licence
+
+MIT — voir `LICENSE`. Inclut Chart.js (MIT).

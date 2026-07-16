@@ -2,24 +2,9 @@ title: $:/plugins/nikorion/chart/readme
 tags: $:/tags/Macro
 type: text/vnd.tiddlywiki
 
-! tw5-chart
-
-A TiddlyWiki plugin for the [[Chart library|]].
-
-Current library version: v4.2.1
-
----
-
-!! Credits
-
-[[Chart.js|www.chartjs.org/]], created by the Chart.js community.
-
-Icon from [[SVG Repo|https://www.svgrepo.com/svg/429933/chart-bar-graph-analytics]] — see SVG Repo terms of use.
-
-Developed with assistance from Anthropic Claude for code, review, refactoring, and documentation.
-
----
-
-!! License
-
-MIT — see `LICENSE`. Includes Chart.js (MIT).
+\whitespace trim
+<$let _lang={{{ [[$:/language]get[text]get[name]else[en-GB]] }}}>
+<$transclude $mode="block" $tiddler={{{ [[$:/plugins/nikorion/chart/language/]addsuffix<_lang>addsuffix[/readme]] }}}>
+<$transclude $mode="block" $tiddler="$:/plugins/nikorion/chart/language/en-GB/readme"/>
+</$transclude>
+</$let>

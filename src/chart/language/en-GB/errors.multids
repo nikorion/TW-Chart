@@ -1,0 +1,5 @@
+title: $:/plugins/nikorion/chart/language/en-GB/
+
+Errors/LoadFailed: Chart.js failed to load
+Errors/RenderFailed: Error rendering chart
+Errors/InvalidData: Invalid JSON in data tiddler
