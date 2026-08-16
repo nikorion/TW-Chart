@@ -3,7 +3,7 @@
     "name": "Chart",
     "description": "Widget integrating Chart.js",
     "author": "nikorion",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "core-version": ">=5.3.8",
     "source": "https://github.com/nikorion/tw5-chart",
     "plugin-type": "plugin",

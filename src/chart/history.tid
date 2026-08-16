@@ -1,4 +1,9 @@
 title: $:/plugins/nikorion/chart/history
 type: text/vnd.tiddlywiki
 
-* ''0.1.0'' -- 2026.07.16 -- Hello !
+\whitespace trim
+<$let _lang={{{ [[$:/language]get[text]get[name]else[en-GB]] }}}>
+<$transclude $mode="block" $tiddler={{{ [[$:/plugins/nikorion/chart/language/]addsuffix<_lang>addsuffix[/history]] }}}>
+<$transclude $mode="block" $tiddler="$:/plugins/nikorion/chart/language/en-GB/history"/>
+</$transclude>
+</$let>
