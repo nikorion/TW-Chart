@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 \procedure wikitext-example(src)
 <div class="doc-example">
-	<$macrocall $name="copy-to-clipboard-above-right" src=<<src>>/>
+	<<copy-to-clipboard-above-right src=<<src>> >>
 	<$codeblock code=<<src>>/>
 	<p>
 		That renders as:
