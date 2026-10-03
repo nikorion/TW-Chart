@@ -12,6 +12,13 @@ Ce plugin, disponible sur [GitHub](https://github.com/nikorion/TW-Chart), est un
 
 ---
 
+## Sommaire
+
+- [Crédits](#crédits)
+- [Licence](#licence)
+
+---
+
 ## Crédits
 
 [Chart.js](https://www.chartjs.org/), créé par la communauté Chart.js.
@@ -22,8 +29,12 @@ voir les conditions d'utilisation de SVG Repo.
 Développé avec l'aide d'Anthropic Claude pour la revue de code,
 le refactoring et la documentation.
 
+[↑ Retour au sommaire](#sommaire)
+
 ---
 
 ## Licence
 
 MIT — voir `LICENSE`. Inclut Chart.js (MIT).
+
+[↑ Retour au sommaire](#sommaire)
