@@ -10,15 +10,6 @@ Ce plugin, disponible sur [GitHub](https://github.com/nikorion/TW-Chart), est un
 
 *Chart.js* est moins souple et personnalisable que *D3.js* ou *ECharts.js* et ne propose que 8 types de graphiques, mais sa force tient à sa simplicité d'accès et à sa légèreté (200 Ko, environ 1/6 d'ECharts, qui alourdit TiddlyWiki de 150 % 😲). Il convient à qui veut produire rapidement des graphiques, moins aux artistes ou aux bricoleurs. À ceux-là, je ne peux que recommander [l'adaptation TiddlyWiki d'ECharts.js](https://tiddly-gittly.github.io/tw-echarts/) conçue à l'origine par Gk0Wk. Ce plugin est aussi disponible via le gestionnaire CPL-Repo, avec en prime la notification automatique des mises à jour. L'adaptation officielle de D3.js, quant à elle, est en sommeil.
 
----
-
-## Sommaire
-
-- [Crédits](#crédits)
-- [Licence](#licence)
-
----
-
 ## Crédits
 
 [Chart.js](https://www.chartjs.org/), créé par la communauté Chart.js.
@@ -29,12 +20,6 @@ voir les conditions d'utilisation de SVG Repo.
 Développé avec l'aide d'Anthropic Claude pour la revue de code,
 le refactoring et la documentation.
 
-[↑](#sommaire "Retour au sommaire")
-
----
-
 ## Licence
 
 MIT — voir `LICENSE`. Inclut Chart.js (MIT).
-
-[↑](#sommaire "Retour au sommaire")
