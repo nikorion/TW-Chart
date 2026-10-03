@@ -29,7 +29,7 @@ see SVG Repo terms of use.
 Developed with assistance from Anthropic Claude for code
 review, refactoring, and documentation.
 
-[↑ Back to contents](#contents)
+[↑](#contents "Back to contents")
 
 ---
 
@@ -37,4 +37,4 @@ review, refactoring, and documentation.
 
 MIT — see `LICENSE`. Includes Chart.js (MIT).
 
-[↑ Back to contents](#contents)
+[↑](#contents "Back to contents")

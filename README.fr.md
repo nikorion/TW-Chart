@@ -29,7 +29,7 @@ voir les conditions d'utilisation de SVG Repo.
 Développé avec l'aide d'Anthropic Claude pour la revue de code,
 le refactoring et la documentation.
 
-[↑ Retour au sommaire](#sommaire)
+[↑](#sommaire "Retour au sommaire")
 
 ---
 
@@ -37,4 +37,4 @@ le refactoring et la documentation.
 
 MIT — voir `LICENSE`. Inclut Chart.js (MIT).
 
-[↑ Retour au sommaire](#sommaire)
+[↑](#sommaire "Retour au sommaire")
