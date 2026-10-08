@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint \"src/chart/modules/*.js\"",
-    "dev": "node scripts/dev.cjs",
+    "dev": "node ../tw-dev/dev.cjs",
     "build": "tiddlywiki wiki --build plugin-json html"
   },
   "devDependencies": {

@@ -30,7 +30,7 @@ src/chart/                  ← sources du plugin (seul dossier à toucher)
 
 wiki/                       ← wiki TW de développement
   tiddlywiki.info           ← plugins actifs, pluginPath: ../src, targets build
-  tiddlers/                 ← tiddlers de config UI + system/$__dev-hmr.tid + system/$__config_SyncFilter.tid
+  tiddlers/                 ← tiddlers de config UI + system/$__config_SyncFilter.tid
 
 dist/                       ← généré par pnpm build, gitignored
 docs/                       ← TW-Chart-Wiki.html standalone
@@ -38,7 +38,7 @@ docs/                       ← TW-Chart-Wiki.html standalone
 
 ## Spécificités dev
 - `pnpm build` → `dist/TW-Chart-Plugin.json` + `docs/TW-Chart-Wiki.html`. Build HTML `publishFilter` (`../guides/build-html-publishfilter.md`) : `katex`/`highlight` gardés (officiels TW).
-- HMR : les `.tid`/`.multids` et assets sont poussés à chaud ; seuls un module `.js` (dont `chart.min.js`) ou `plugin.info` rebootent. `nodemon.json` surveille `src/chart/modules` + `plugin.info`. `eslint.config.js` : ES2021.
+- HMR : les `.tid`/`.multids` et assets sont poussés à chaud ; seuls un module `.js` (dont `chart.min.js`) ou `plugin.info` rebootent. `eslint.config.js` : ES2021.
 
 ## Architecture du widget (`chart.widget.js`)
 Pipeline de rendu :
