@@ -20,6 +20,19 @@ see SVG Repo terms of use.
 Developed with assistance from Anthropic Claude for code
 review, refactoring, and documentation.
 
+## Installation
+
+**Live demo**: [https://nikorion.github.io/TW-Chart/](https://nikorion.github.io/TW-Chart/) — try the plugin before installing it.
+
+**From the nikorion plugin library** (TiddlyWiki then offers each new version as an update):
+
+1. In your wiki, create a tiddler tagged `$:/tags/PluginLibrary`, with a field `url` set to `https://nikorion.github.io/tw-dev/library/index.html` and a `caption` such as `nikorion`.
+2. Open *Control Panel → Plugins → Get more plugins*, choose the nikorion library and install **Chart**.
+
+**By hand**: download [`TW-Chart-Plugin.json`](https://nikorion.github.io/TW-Chart/TW-Chart-Plugin.json) and drag it onto your wiki.
+
+Requires TiddlyWiki ≥ 5.3.8.
+
 ## License
 
 MIT — see `LICENSE`. Includes Chart.js (MIT).

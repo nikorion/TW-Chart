@@ -33,11 +33,11 @@ wiki/                       ← wiki TW de développement
   tiddlers/                 ← tiddlers de config UI + system/$__config_SyncFilter.tid
 
 dist/                       ← généré par pnpm build, gitignored
-docs/                       ← TW-Chart-Wiki.html standalone
+docs/                       ← démo générée par `pnpm build` (`index.html` + moteur externe), gitignorée, publiée par la CI
 ```
 
 ## Spécificités dev
-- `pnpm build` → `dist/TW-Chart-Plugin.json` + `docs/TW-Chart-Wiki.html`. Build HTML `publishFilter` (`../guides/build-html-publishfilter.md`) : `katex`/`highlight` gardés (officiels TW).
+- `pnpm build` → `dist/TW-Chart-Plugin.json` + démo `docs/` (publiée par la CI : `../guides/publication.md`). Démo `publishFilter` (`../guides/build-html-publishfilter.md`) : `katex`/`highlight` gardés (officiels TW).
 - HMR : les `.tid`/`.multids` et assets sont poussés à chaud ; seuls un module `.js` (dont `chart.min.js`) ou `plugin.info` rebootent. `eslint.config.js` : ES2021.
 
 ## Architecture du widget (`chart.widget.js`)
