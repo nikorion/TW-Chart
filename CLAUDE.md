@@ -29,7 +29,7 @@ src/chart/                  ← sources du plugin (seul dossier à toucher)
   plugin.info               ← métadonnées du plugin (v0.1.0)
 
 wiki/                       ← wiki TW de développement
-  tiddlywiki.info           ← plugins actifs, pluginPath: ../src, targets build
+  tiddlywiki.info           ← plugins actifs, targets build
   tiddlers/                 ← tiddlers de config UI + system/$__config_SyncFilter.tid
 
 dist/                       ← généré par pnpm build, gitignored
