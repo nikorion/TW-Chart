@@ -33,6 +33,16 @@ review, refactoring, and documentation.
 
 Requires TiddlyWiki ≥ 5.3.8.
 
+## Development
+
+Clone [tw-dev](https://github.com/nikorion/tw-dev) next to this repository: `pnpm dev` runs it, and it links by itself the nikorion plugins the dev wiki loads — from clones sitting next to this one (`../TW-Math`…), so your edits to them are live, otherwise from a read-only copy it fetches from GitHub. No symlink, no `TIDDLYWIKI_PLUGIN_PATH`, no admin rights. `pnpm build` alone still needs `TIDDLYWIKI_PLUGIN_PATH`: point it to `../tw-dev/.state/TW-Chart/plugins`, created by `pnpm dev`.
+
+```sh
+pnpm install
+pnpm dev     # dev wiki + hot reload; the URL (random free port) is printed on start
+pnpm build   # dist/TW-Chart-Plugin.json + docs/ (demo wiki, published by CI)
+```
+
 ## License
 
 MIT — see `LICENSE`. Includes Chart.js (MIT).
