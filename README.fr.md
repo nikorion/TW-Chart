@@ -2,6 +2,8 @@
 
 [English](README.md) · **Français**
 
+![Status](https://img.shields.io/badge/status-experimental-orange)
+
 Un plugin TiddlyWiki pour la bibliothèque [Chart.js](https://www.chartjs.org/).
 
 Version actuelle de la bibliothèque : v4.2.1
